@@ -17,26 +17,6 @@ foreach ($ar_buah as $k =>$v) {
     }
     echo '</ol>';
     
-// fungsi array_pop
-    $tims = ["erwin","heru","ali","zaki"];
-    array_pop($tims);
-    foreach($tims as $person){
-        echo $person.'<br/>';
-    }
-
-// fungsi array_push
-    $tims = ["erwin","heru","ali","zaki"];
-    array_push($tims,"wati");
-    foreach($tims as $person){
-        echo $person. '<br/>';
-    }
-
-// Fugsi array_shift
-    $tims = ["erwin", "heru", "ali", "zaki"];
-    array_shift($tims);
-    foreach($tims as $person){
-        echo $person.'<br/>';
-    }
 ?>
 </body>
 </html>
