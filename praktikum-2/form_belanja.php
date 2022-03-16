@@ -7,15 +7,16 @@
     <title>Form Belanja</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+  </head>
+
 <body>
+  <h2><center>Belanja Online<center></h2>
   <div class="container-card">
     <div class="row">
       <div class="col-12 bg-light pt-2">
-        <h2><center>BELANJA ONLINE<center></h2>
 </div>
 </div>
-<table class="table table-sm " style="width:30%; float: right; border:1px solid black;">
+<table class="table table-sm " style="width:20%; float: right;">
   <thead>
     <tr>
         <th class="table-primary">Daftar Harga</th>
@@ -39,7 +40,7 @@
 <form method="POST" action="">
   <div class="form-group row">
     <label for="nama" class="col-4 col-form-label"> Costumer</label> 
-    <div class="col-6">
+    <div class="col-4">
       <div class="input-group">
         <div class="input-group-prepend">
           <div class="input-group-text">
@@ -54,22 +55,22 @@
     <label class="col-4">Pilih Produk</label> 
     <div class="col-8">
       <div class="custom-control custom-radio custom-control-inline">
-        <input name="produk" id="produk_0" type="radio" class="custom-control-input" value="tv" required="required"> 
-        <label for="produk_0" class="custom-control-label">TV</label>
+        <input name="produk" id="produk_1" type="radio" class="custom-control-input" value="tv" required="required"> 
+        <label for="produk_1" class="custom-control-label">TV</label>
       </div>
       <div class="custom-control custom-radio custom-control-inline">
-        <input name="produk" id="produk_1" type="radio" class="custom-control-input" value="kulkas" required="required"> 
-        <label for="produk_1" class="custom-control-label">Kulkas</label>
+        <input name="produk" id="produk_2" type="radio" class="custom-control-input" value="kulkas" required="required"> 
+        <label for="produk_2" class="custom-control-label">Kulkas</label>
       </div>
       <div class="custom-control custom-radio custom-control-inline">
-        <input name="produk" id="produk_2" type="radio" class="custom-control-input" value="mesin_cuci" required="required"> 
-        <label for="produk_2" class="custom-control-label">Mesin Cuci</label>
+        <input name="produk" id="produk_3" type="radio" class="custom-control-input" value="mesin_cuci" required="required"> 
+        <label for="produk_3" class="custom-control-label">Mesin Cuci</label>
       </div>
     </div>
   </div>
   <div class="form-group row">
     <label for="jumlah" class="col-4 col-form-label">Jumlah</label> 
-    <div class="col-8">
+    <div class="col-4">
       <div class="input-group">
         <div class="input-group-prepend">
           <div class="input-group-text">
