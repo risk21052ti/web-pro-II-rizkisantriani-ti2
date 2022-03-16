@@ -89,27 +89,27 @@
 
 <div>
     <?php
-$_nama   = isset($_POST['nama']) ? $_POST['nama'] : '';
-$_produk = isset($_POST['produk']) ? $_POST['produk'] : '';
-$_jumlah = isset($_POST['jumlah']) ? $_POST['jumlah'] : '';
-$_produk = $_produk;
+        $_nama   = isset($_POST['nama']) ? $_POST['nama'] : '';
+        $_produk = isset($_POST['produk']) ? $_POST['produk'] : '';
+        $_jumlah = isset($_POST['jumlah']) ? $_POST['jumlah'] : '';
+        $_produk = $_produk;
 
 
-echo 'Nama : '. $_nama;
-echo '<br>Produk Pilihan : '. $_produk;
-echo '<br>Jumlah : '. $_jumlah;
+        echo 'Nama : '. $_nama;
+        echo '<br>Produk Pilihan : '. $_produk;
+        echo '<br>Jumlah : '. $_jumlah;
 
-if ($_produk == 'tv') {
-    echo "<br>total harga : Rp. ".$_jumlah * 4200000;
- } elseif($_produk == 'kulkas') {
-    echo "<br>total harga : Rp. ".$_jumlah * 3100000;
- } elseif($_produk == 'mesin_cuci') {
-    echo "<br>total harga : Rp. ".$_jumlah * 3800000;
- }else {
-     "silahkan pilih ";
- } 
+      if ($_produk == 'tv') {
+        echo "<br>total harga : Rp. ".$_jumlah * 4200000;
+      } elseif($_produk == 'kulkas') {
+        echo "<br>total harga : Rp. ".$_jumlah * 3100000;
+      } elseif($_produk == 'mesin_cuci') {
+        echo "<br>total harga : Rp. ".$_jumlah * 3800000;
+      }else {
+        "silahkan pilih ";
+      } 
 
-?>
+    ?>
     
 </div>
 
